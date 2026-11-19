@@ -1,0 +1,7 @@
+project: savantenvs/aspia
+target: fuzz_video_decoder
+
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_video_decoder
+    libfuzzer: true
+    timeout: 5

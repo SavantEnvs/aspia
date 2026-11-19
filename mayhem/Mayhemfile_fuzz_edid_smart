@@ -1,0 +1,7 @@
+project: savantenvs/aspia
+target: fuzz_edid_smart
+
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_edid_smart
+    libfuzzer: true
+    timeout: 5

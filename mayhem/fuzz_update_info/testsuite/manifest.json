@@ -1,0 +1,17 @@
+{
+    "format": 1,
+    "version": "3.0.6",
+    "description": "A new version of the program.",
+    "path": "https://aspia.org/download",
+    "packages": {
+        "host": {
+            "windows": { "x86_64": [ { "format": "msi", "file": "host.msi", "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef" } ] },
+            "linux": {
+                "x86_64": [
+                    { "format": "deb", "file": "host.deb", "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef" },
+                    { "format": "rpm", "file": "host.rpm", "sha256": "0123456789abcdef0123456789abcdef0123456789abcdef0123456789abcdef" }
+                ]
+            }
+        }
+    }
+}

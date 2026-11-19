@@ -1,0 +1,7 @@
+project: savantenvs/aspia
+target: fuzz_server_authenticator
+
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_server_authenticator
+    libfuzzer: true
+    timeout: 5

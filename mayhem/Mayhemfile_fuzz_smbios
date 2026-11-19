@@ -1,0 +1,7 @@
+project: savantenvs/aspia
+target: fuzz_smbios
+
+cmds:
+  - cmd: /mayhem/mayhem/out/fuzz_smbios
+    libfuzzer: true
+    timeout: 5
